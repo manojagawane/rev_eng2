@@ -6548,7 +6548,7 @@ classes are available for the most common amounts desired, in steps of `10px`
     .cc :not(.prism-toggle) > pre > code > .annotation::before,
     .cc .prism-toggle--show-annotations > pre > code > .annotation::before {
       background-color: #ffe3a0;
-      background-image: image-url("cc/styles/icons/alert_solid.svg");
+      background-image: image-url("");
       background-repeat: no-repeat;
       background-position: 29px center;
       background-size: 15px auto;
