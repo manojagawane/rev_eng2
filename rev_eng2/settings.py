@@ -23,9 +23,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'tamplates')
 SECRET_KEY = '6#3u8^nz(av@3l*=x!w7h$9mt9uow+&43k01*j5#^dk#u--=!7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['guarded-brook-33744.herokuapp.com','127.0.0.1']
 
 
 # Application definition
