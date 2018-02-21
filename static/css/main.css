@@ -6407,8 +6407,8 @@ classes are available for the most common amounts desired, in steps of `10px`
     position: relative; }
     .cc .table--sortable .asc a::before,
     .cc .table--sortable .desc a::before {
-      -webkit-mask-image: image-url("cc/styles/icons/nubbin_arrow.svg");
-              mask-image: image-url("cc/styles/icons/nubbin_arrow.svg");
+      -webkit-mask-image: image-url("");
+              mask-image: image-url("");
       background-color: #333;
       bottom: 0;
       content: "";
