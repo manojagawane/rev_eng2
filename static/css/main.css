@@ -6426,7 +6426,7 @@ classes are available for the most common amounts desired, in steps of `10px`
 @-moz-document url-prefix() {
   .cc .table--sortable .asc a::before,
   .cc .table--sortable .desc a::before {
-    background: image-url("cc/styles/icons/nubbin_arrow.svg") 0 0 no-repeat transparent; } }
+    background: image-url("") 0 0 no-repeat transparent; } }
   .cc .table--sortable .asc a::before {
     transform: rotate(180deg); }
   .cc .table--no-header tr:first-child td {
