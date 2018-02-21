@@ -6657,8 +6657,8 @@ classes are available for the most common amounts desired, in steps of `10px`
   .cc .form--search {
     position: relative; }
     .cc .form--search::before {
-      -webkit-mask-image: image-url("cc/styles/icons/search_solid.svg");
-              mask-image: image-url("cc/styles/icons/search_solid.svg");
+      -webkit-mask-image: image-url("");
+              mask-image: image-url("");
       background: #9b9b9b;
       content: " ";
       height: 39px;
@@ -6674,7 +6674,7 @@ classes are available for the most common amounts desired, in steps of `10px`
 
 @-moz-document url-prefix() {
   .cc .form--search::before {
-    background: image-url("cc/styles/icons/search_solid.svg") 0 0 no-repeat transparent; } }
+    background: image-url("") 0 0 no-repeat transparent; } }
 
 @-moz-document url-prefix() {
   .cc .form--search::before {
@@ -6720,8 +6720,8 @@ classes are available for the most common amounts desired, in steps of `10px`
       .cc .checkbox label::after {
         background-color: transparent;
         height: 18px;
-        -webkit-mask-image: image-url("cc/styles/icons/checkmark.svg");
-                mask-image: image-url("cc/styles/icons/checkmark.svg");
+        -webkit-mask-image: image-url("");
+                mask-image: image-url("");
         -webkit-mask-position: center;
                 mask-position: center;
         -webkit-mask-repeat: no-repeat;
@@ -6928,26 +6928,26 @@ classes are available for the most common amounts desired, in steps of `10px`
     .cc .icon-menu a:hover::before {
       background-color: #45d298; }
   .cc .icon-menu__item--icon-add a::before {
-    -webkit-mask-image: image-url("cc/styles/icons/add_linear.svg");
-            mask-image: image-url("cc/styles/icons/add_linear.svg"); }
+    -webkit-mask-image: image-url("");
+            mask-image: image-url(""); }
 
 @-moz-document url-prefix() {
   .cc .icon-menu__item--icon-add a::before {
-    background: image-url("cc/styles/icons/add_linear.svg") 0 0 no-repeat transparent; } }
+    background: image-url("") 0 0 no-repeat transparent; } }
   .cc .icon-menu__item--icon-add-collaborator a::before {
-    -webkit-mask-image: image-url("cc/styles/icons/add_collaborator_linear.svg");
-            mask-image: image-url("cc/styles/icons/add_collaborator_linear.svg"); }
+    -webkit-mask-image: image-url("");
+            mask-image: image-url(""); }
 
 @-moz-document url-prefix() {
   .cc .icon-menu__item--icon-add-collaborator a::before {
-    background: image-url("cc/styles/icons/add_collaborator_linear.svg") 0 0 no-repeat transparent; } }
+    background: image-url("") 0 0 no-repeat transparent; } }
   .cc .icon-menu__item--icon-settings a::before {
-    -webkit-mask-image: image-url("cc/styles/icons/settings_linear.svg");
-            mask-image: image-url("cc/styles/icons/settings_linear.svg"); }
+    -webkit-mask-image: image-url("");
+            mask-image: image-url(""); }
 
 @-moz-document url-prefix() {
   .cc .icon-menu__item--icon-settings a::before {
-    background: image-url("cc/styles/icons/settings_linear.svg") 0 0 no-repeat transparent; } }
+    background: image-url("") 0 0 no-repeat transparent; } }
   .cc .avatar {
     border-radius: 50%;
     height: 75px;
